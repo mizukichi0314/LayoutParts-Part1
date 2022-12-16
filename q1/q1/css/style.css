@@ -1,2 +1,70 @@
 @charset "UTF-8";
 /* 回答はここから */
+
+/* Q1.text-alignの解答 */
+.item-box {
+  width: 200px;
+  padding: 20px 0;
+  background-color: #fff;
+  display: inline-block;
+}
+.text-align {
+  text-align: center;
+}
+.text {
+  display: inline-block;
+  padding: 10px;
+  background-color: #a4b3e9;
+  font-size: 16px;
+}
+/* Q1.marginの解答 */
+.margin-center {
+  margin: 0 auto;
+  text-align: center;
+}
+.margin-text {
+  width: 90px;
+  background-color: #a4b3e9;
+  padding: 10px;
+  font-size: 16px;
+  display: inline-block;
+}
+/* Q1-2.tableの解答 */
+.table {
+  display: table;
+}
+.table-box {
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}
+.table-text {
+  background-color: #fff;
+  padding: 10px;
+  font-size: 16px;
+  display: inline-block;
+}
+/* Q1-2.flexの解答 */
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flex-text {
+  background-color: #fff;
+  padding: 10px;
+  font-size: 16px;
+}
+/* Q1-2.positionの解答 */
+.position {
+  position: relative;
+}
+.container-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #a4b3e9;
+  padding: 10px;
+  font-size: 16px;
+}
